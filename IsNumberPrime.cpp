@@ -7,7 +7,7 @@ int _tmain(int argc, _TCHAR* argv[])
     unsigned int nDividers = 0;
     std::cout << "Input an integer positive number\r\n";
     std::cin >> ulNumber;
-    std::cout << "The number " << ulNumber << " has the folowing dividers:\r\n";
+    std::cout << "The number " << ulNumber << " has the folowing divisors:\r\n";
     for (unsigned long i = 1; i <= ulNumber; i++)
     {
         if (ulNumber % i == 0)
@@ -29,7 +29,7 @@ int _tmain(int argc, _TCHAR* argv[])
         std::cout << "The number " << ulNumber << " is prime\r\n";
         break;
     default:
-        std::cout << "The number " << ulNumber << "is composite\r\n";
+        std::cout << "The number " << ulNumber << " is composite\r\n";
         break;
     }
     std::cin.ignore();
